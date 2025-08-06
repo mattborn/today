@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "Mitt",
+      "description": "A productivity tool that helps with daily task management and tracking.",
+      "priority": "high",
+      "status": "active",
+      "key_decisions": [
+        "Focus on Mitt UI improvements first",
+        "Review and refactor the Mitt codebase by end of week (high priority)"
+      ],
+      "action_items": [
+        "Set up meeting with design team for UI mockups (medium priority)",
+        "Research React Native vs Flutter for mobile app (low priority)"
+      ],
+      "insights": [
+        "User feedback shows that simplicity is key for adoption",
+        "Mobile accessibility is becoming increasingly important"
+      ]
+    },
+    {
+      "name": "Data Analytics Dashboard",
+      "description": "A dashboard project currently on hold, awaiting backend API completion.",
+      "priority": "medium",
+      "status": "on hold",
+      "key_decisions": [
+        "Postpone the analytics dashboard until Q2"
+      ]
+    },
+    {
+      "name": "Mobile App",
+      "description": "A potential app idea that complements Mitt, currently in planning.",
+      "priority": "low",
+      "status": "planned",
+      "key_decisions": [
+        "Start researching mobile app frameworks"
+      ]
+    }
+  ]
+}

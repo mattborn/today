@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 16px/1.5 system-ui, sans-serif; padding: 24px 16px; max-width: 640px; margin: 0 auto; }
+h1 { font-size: 20px; font-weight: 400; margin-bottom: 8px; }
+.updated { color: #666; font-size: 14px; margin-bottom: 24px; }
+.days { display: flex; gap: 8px; margin-bottom: 32px; justify-content: center; }
+.day { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; text-align: center; min-width: 60px; }
+.day.active { background: #000; color: #fff; }
+.day.disabled { opacity: 0.3; cursor: not-allowed; }
+.day .date { font-size: 18px; font-weight: 500; }
+.day .weekday { font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; opacity: 0.7; }
+.empty { text-align: center; color: #999; padding: 48px 0; }
+.project { border: 1px solid #eee; border-radius: 8px; padding: 16px; margin-bottom: 12px; }
+.project h2 { font-size: 16px; margin-bottom: 8px; }
+.project p { color: #666; font-size: 14px; }
+@media (max-width: 600px) {
+  .day:not(.active):not(.active + .day):not(.day:has(+ .active)) { display: none; }
+}
