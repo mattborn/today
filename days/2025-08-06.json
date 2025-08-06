@@ -1,40 +1,42 @@
 {
-  "projects": [
+  "updates": [
     {
-      "name": "Mitt",
-      "description": "A productivity tool that helps with daily task management and tracking.",
-      "priority": "high",
-      "status": "active",
-      "key_decisions": [
-        "Focus on Mitt UI improvements first",
-        "Review and refactor the Mitt codebase by end of week (high priority)"
-      ],
-      "action_items": [
-        "Set up meeting with design team for UI mockups (medium priority)",
-        "Research React Native vs Flutter for mobile app (low priority)"
-      ],
-      "insights": [
-        "User feedback shows that simplicity is key for adoption",
-        "Mobile accessibility is becoming increasingly important"
-      ]
+      "project": "Aspen",
+      "notes": "Ivy, which is actually called Aspen, Daylen, Joey are involved in this. We’re halfway through a week when they were supposed to have a working website."
     },
     {
-      "name": "Data Analytics Dashboard",
-      "description": "A dashboard project currently on hold, awaiting backend API completion.",
-      "priority": "medium",
-      "status": "on hold",
-      "key_decisions": [
-        "Postpone the analytics dashboard until Q2"
-      ]
+      "project": "Brand-OS",
+      "notes": "I got an email this morning, it was really upsetting. I owe some things to Brian. Today, some interfaces, one for the... Sales plan detail, and the plan homepage are the two that we talked about. These are in linear. I think what I'm just going to do is some vibe coding, some research, drop some inspiration links for now."
     },
     {
-      "name": "Mobile App",
-      "description": "A potential app idea that complements Mitt, currently in planning.",
-      "priority": "low",
-      "status": "planned",
-      "key_decisions": [
-        "Start researching mobile app frameworks"
-      ]
+      "project": "Fantasy",
+      "notes": "Fantasy is on my mind; I want to do fantasy."
+    },
+    {
+      "project": "Holdcode",
+      "notes": "I want to do holdcode."
+    },
+    {
+      "project": "Macabre",
+      "notes": "I spent a good chunk of last night and this morning working on Macabre, only to realize that is going to be much harder to get to market. So that project is officially on pause."
+    },
+    {
+      "project": "Mitt",
+      "notes": "I still haven't had another session with Burke on the MIT project. He's really excited to continue that. I wanted to do a bottom-up refactor of the entire thing. Because I got some new ideas about time, that being the starting point, the hour, the time constant, testing. And this idea of the manipulation of time is actually pretty profound. And if an AI assistant can help with this, it's one of the most critical things that... Really, I haven't seen any tool do well yet."
+    },
+    {
+      "project": "Moona",
+      "notes": "Revisit services partnership with Shane!"
+    },
+    {
+      "project": "Today",
+      "notes": "I'm going to share this with Shane as soon as it's ready, so he has a good idea of everything I'm thinking about, or responsible for, or committed to."
+    }
+  ],
+  "trash": [
+    {
+      "name": "battle royale",
+      "people": []
     }
   ]
 }

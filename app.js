@@ -54,11 +54,11 @@ async function loadData() {
     const data = await response.json()
     document.getElementById('timestamp').textContent = new Date(data.timestamp || Date.now()).toLocaleString()
     
-    if (data.projects && data.projects.length > 0) {
-      content.innerHTML = data.projects.map(p => `
+    if (data?.updates?.length) {
+      content.innerHTML = data.updates.map(update => `
         <div class="project">
-          <h2>${p.name}</h2>
-          <p>${p.description || p.transcription || ''}</p>
+          <h2>${update.project}</h2>
+          <p>${update.notes}</p>
         </div>
       `).join('')
     } else {
