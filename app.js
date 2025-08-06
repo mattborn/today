@@ -48,7 +48,7 @@ async function loadData() {
   const content = document.getElementById('content')
   
   try {
-    const response = await fetch(`./data/${dateStr}.json`)
+    const response = await fetch(`./days/${dateStr}.json`)
     if (!response.ok) throw new Error('Not found')
     
     const data = await response.json()
