@@ -52,7 +52,12 @@ async function loadData() {
     if (!response.ok) throw new Error('Not found')
     
     const data = await response.json()
-    document.getElementById('timestamp').textContent = new Date(data.timestamp || Date.now()).toLocaleString()
+    const timeAgo = (date) => {
+      const now = new Date()
+      const diff = Math.floor((now - new Date(date)) / 60000)
+      return diff < 1 ? 'now' : `${diff}m ago`
+    }
+    document.getElementById('timestamp').textContent = `Updated by Mitt ${timeAgo(data.timestamp || Date.now())}`
     
     if (data?.updates?.length) {
       content.innerHTML = data.updates.map(update => `
