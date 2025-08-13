@@ -1,0 +1,39 @@
+{
+  "updates": [
+    {
+      "project": "Aspen",
+      "notes": "Working on the brand and hero, that's the task of the week. Not sure if I'll get around to it today."
+    },
+    {
+      "project": "Fantasy",
+      "notes": "Collaborating with Shane on Fantasy as soon as Frank is in a good spot."
+    },
+    {
+      "project": "Figma",
+      "notes": "It's more housekeeping stuff that can't be automated yet. Need to organize Figma."
+    },
+    {
+      "project": "Macabre",
+      "notes": "There's still a lot of housekeeping stuff to do. Not having as many issues anymore, but there's still just so much left to be desired there."
+    },
+    {
+      "project": "Mitt",
+      "notes": "Generated a lot of v0 projects testing new capabilities. Need to clean up those projects. Excited about a new skill: the allocation tool to build a simple daily schedule."
+    }
+  ],
+  "trash": [
+    {
+      "name": "Brand-OS",
+      "people": [
+        "Shane"
+      ]
+    },
+    {
+      "name": "Fantasy Frank",
+      "people": [
+        "Shane"
+      ]
+    }
+  ],
+  "timestamp": 1755099673019
+}
