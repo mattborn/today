@@ -1,0 +1,63 @@
+{
+  "updates": [
+    {
+      "project": "Aspen",
+      "notes": "Same thing as yesterday. Started trying to figure out a more efficient way to get this done than last time. Working on a closed-loop system for iterating; it's the most important priority of the day."
+    },
+    {
+      "project": "Brand-OS",
+      "notes": "Respond to their message. Just some initial thoughts, maybe not the full message. It's a unique form of challenging, so I need to pray about it and get a little more grounded."
+    },
+    {
+      "project": "Fantasy",
+      "notes": "Move Fantasy to the backburner for now, since I maybe spent too much time on that yesterday."
+    },
+    {
+      "project": "Holdco",
+      "notes": "Providing updates via an investor newsletter across all projects, focusing on an idea for investor-facing updates, addressing the purpose, problems solved, potential profits, and confidence levels."
+    },
+    {
+      "project": "Macabre",
+      "notes": "Spent a little too much time this week due to problems. Backing up my main system, getting a fresh start like back to school with new supplies. Considering a quick exercise or update on talking to Plaid and what I learned."
+    },
+    {
+      "project": "Mask",
+      "notes": "Haven't met with Burke this week; need to schedule time. Would love AI to manage events. No updates about their ClickUp environment."
+    },
+    {
+      "project": "Today",
+      "notes": "Focus on personal updates as an extension of the investor newsletter."
+    }
+  ],
+  "trash": [
+    {
+      "name": "Macabre",
+      "people": []
+    },
+    {
+      "name": "Plaid",
+      "people": []
+    },
+    {
+      "name": "Holdco",
+      "people": []
+    },
+    {
+      "name": "Today",
+      "people": []
+    },
+    {
+      "name": "Mask",
+      "people": []
+    },
+    {
+      "name": "Aspen",
+      "people": []
+    },
+    {
+      "name": "Brand-OS",
+      "people": []
+    }
+  ],
+  "timestamp": 1755100283674
+}
