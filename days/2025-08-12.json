@@ -1,0 +1,31 @@
+{
+  "updates": [
+    {
+      "project": "Aspen",
+      "notes": "Collect best web projects and Websuite to feed in as ICL. Start enumerating OCD code preferences. Finish the website and review with Joey. At least two reviews, then review with Dalen."
+    },
+    {
+      "project": "Brand-OS",
+      "notes": "Meeting with Shane scheduled yesterday is happening today. Work on a new concept using the Hally data."
+    },
+    {
+      "project": "Frank",
+      "notes": "Still need to add image support now that we got like the basics data flows working. Sharing that with Shane, that's still a priority."
+    },
+    {
+      "project": "Macabre",
+      "notes": "Probaby more house keeping today."
+    }
+  ],
+  "trash": [
+    {
+      "name": "Websuite",
+      "people": []
+    },
+    {
+      "name": "Hally",
+      "people": []
+    }
+  ],
+  "timestamp": 1755099846506
+}
